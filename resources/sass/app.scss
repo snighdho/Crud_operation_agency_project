@@ -1,0 +1,28 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+
+.paragraph {
+    background-color: rgba(29, 28, 19, 0.726);
+    font-size: 15px;
+}
+
+.paragraphs{
+   background-color: rgba(18, 34, 32, 0.315);
+
+}
+
+.h2{
+    font-size: 50px;
+}
+
+.contact-form{
+    background: inline;
+}
