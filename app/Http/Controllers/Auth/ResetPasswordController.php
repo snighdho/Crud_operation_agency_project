@@ -25,5 +25,9 @@ class ResetPasswordController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    // protected $redirectTo = '/login';
+    protected function redirectTo()
+    {
+        return '/login'; // Redirect to the login page after resetting the password
+    }
 }
